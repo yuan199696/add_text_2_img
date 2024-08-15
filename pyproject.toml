@@ -1,0 +1,15 @@
+[project]
+name = "add_text_2_img"
+description = "Support adding custom text to the generated images."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["pillow", "numpy", "torch"]
+
+[project.urls]
+Repository = "https://github.com/yuan199696/add_text_2_img"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "add-text-2-img"
+DisplayName = "add_text_2_img"
+Icon = ""
